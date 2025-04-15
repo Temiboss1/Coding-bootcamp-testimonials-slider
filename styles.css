@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+    overflow-y: scroll;
     color: var(--Dark-Blue);
     font-weight: 300;
     line-height: 1.4;
@@ -118,9 +119,6 @@ body {
     }
  }
  @media screen and (max-width: 800px) {
-    body{
-        overflow-y: scroll;
-    }
     .author {
         font-size: 18px;
        }
